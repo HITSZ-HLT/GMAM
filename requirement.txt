@@ -1,0 +1,5 @@
+transformers==3.4.0
+pytorch==1.7.1
+numpy==1.21.6
+fitlog==0.9.13
+fastnlp==0.7.0
