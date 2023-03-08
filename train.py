@@ -57,7 +57,7 @@ print("cuda rank",os.environ['CUDA_VISIBLE_DEVICES'])
 
 import warnings
 warnings.filterwarnings('ignore')
-from model.bart_absa import BartSeq2SeqModel
+from model.bart_am import BartSeq2SeqModel
 from fastNLP import Trainer
 from model.losses import Seq2SeqLoss
 from fastNLP import BucketSampler, GradientClipCallback, cache_results, WarmupCallback
