@@ -20,9 +20,9 @@ parser.add_argument('--cuda_rank', type=int, default=2)
 parser.add_argument('--seed', type=int, default=None)
 parser.add_argument('--layernorm_decay', type=float, default=0.001)
 
-parser.add_argument('--biloss', action='store_true', default=False)
+parser.add_argument('--biloss', action='store_true', default=True)
 parser.add_argument('--replace_pos', action='store_true', default=True)
-parser.add_argument('--decode_mask', action='store_true', default=False)
+parser.add_argument('--decode_mask', action='store_true', default=True)
 parser.add_argument('--position_type',type=int,default=0)
 
 
