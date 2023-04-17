@@ -1,0 +1,1 @@
+{"hyper": {"dataset_name": "essay", "lr": 6e-05, "batch_size": 32, "num_beams": 4, "n_epochs": 75, "decoder_type": "avg_score", "length_penalty": 1.0, "bart_name": "/data/heyuhang/pretrain_model/bart_base", "use_encoder_mlp": 1, "save_model": 1, "cuda_rank": 3, "seed": null, "layernorm_decay": 0.005, "biloss": true, "replace_pos": true, "decode_mask": true, "position_type": 0}}
