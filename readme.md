@@ -14,7 +14,7 @@ After enter the folder, you can run the code by directly using
 python train.py --dataset essay
 ```
 
-The performance is reported in average. You can check the performance of in logs folder as follow:
+The performance is reported in average. You can check the performance in logs folder as follow:
 
 ```log
 ...
@@ -25,4 +25,4 @@ The performance is reported in average. You can check the performance of in logs
 
 ## Check the results
 
-We update the inference the code to load the saved model, make inference and show the inferece result. You can see more details in "infer.py" . The infer_res.ipynb is provided to load the pkl file and convert the sequence results into readable strings.
+We update the inference code to load the saved model, make inference and show the inferece results. You can see more details in "infer.py" . The infer_res.ipynb is provided to load the pkl file and convert the sequence results into readable strings.
